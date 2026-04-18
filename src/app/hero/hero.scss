@@ -1,0 +1,31 @@
+.app-hero {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-color: #001d21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+}
+
+.hero-content {
+  max-width: 1024px;
+}
+
+.hero-card {
+  max-width: 600px;
+  text-align: center;
+
+  h1 {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+}
