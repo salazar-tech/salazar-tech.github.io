@@ -7,20 +7,74 @@
   align-items: center;
   color: #fff;
   flex-direction: column;
+  background-image: url(/assets/binary_001.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero-content {
   max-width: 1024px;
+  padding: 1.5rem;
 }
 
+// .hero-card {
+//   max-width: 600px;
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+//   gap: 1.5rem;
+//   align-items: center;
+
+//   h1 {
+//     font-weight: 600;
+//     font-size: 4rem;
+//     line-height: 3.5rem;
+
+//   }
+
+//   p {
+//     font-weight: 300;
+//     font-size: 1.5rem;
+//   }
+
+//   button {
+//     padding: 0 2rem;
+//     background: #cecbff;
+//   }
+
+//   // @media (max-width: 768px) {
+//   //   font-size: 14px;
+//   //   padding: 10px;
+//   // }
+
+// }
+
 .hero-card {
+  display: flex;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    .hero-img {
+      display: none;
+    }
+  }
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   max-width: 600px;
-  text-align: center;
+
 
   h1 {
     font-weight: 600;
     font-size: 4rem;
     line-height: 4rem;
+    margin-bottom: 1rem;
+
   }
 
   p {
@@ -28,4 +82,23 @@
     font-size: 1.5rem;
   }
 
+  button {
+    margin-top: 2rem;
+    padding: 0 2rem;
+    background: #cecbff;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    align-items: center;
+  }
+
+
+}
+
+.hero-img {
+  img {
+    height: 500px;
+    border-radius: 15px;
+  }
 }
