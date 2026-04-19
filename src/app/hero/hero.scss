@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: #eee;
   flex-direction: column;
   background-image: url(/assets/binary_001.png);
   background-position: center center;
@@ -18,37 +18,6 @@
   padding: 1.5rem;
 }
 
-// .hero-card {
-//   max-width: 600px;
-//   text-align: center;
-//   display: flex;
-//   flex-direction: column;
-//   gap: 1.5rem;
-//   align-items: center;
-
-//   h1 {
-//     font-weight: 600;
-//     font-size: 4rem;
-//     line-height: 3.5rem;
-
-//   }
-
-//   p {
-//     font-weight: 300;
-//     font-size: 1.5rem;
-//   }
-
-//   button {
-//     padding: 0 2rem;
-//     background: #cecbff;
-//   }
-
-//   // @media (max-width: 768px) {
-//   //   font-size: 14px;
-//   //   padding: 10px;
-//   // }
-
-// }
 
 .hero-card {
   display: flex;
@@ -86,6 +55,7 @@
     margin-top: 2rem;
     padding: 0 2rem;
     background: #cecbff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
 
   @media (max-width: 768px) {
@@ -100,5 +70,6 @@
   img {
     height: 500px;
     border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
 }

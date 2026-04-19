@@ -52,3 +52,20 @@ You are an expert in TypeScript, Angular, and scalable web application developme
 - Design services around a single responsibility
 - Use the `providedIn: 'root'` option for singleton services
 - Use the `inject()` function instead of constructor injection
+
+## Design System: Elevation & Shadows
+
+### 1. Subtle Shadow (Low Elevation)
+Gently separates containers or images from the background.
+- **Specs:** Vertical 2px, Blur 4px, Opacity 10%
+- **CSS:** `box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);`
+
+### 2. Standard Shadow (Medium Elevation)
+Ideal for primary buttons or clickable interactive elements.
+- **Specs:** Vertical 4px, Blur 10px, Opacity 15%
+- **CSS:** `box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);`
+
+### 3. High Shadow (High Elevation)
+Used for modals and dialogs that physically separate from the page.
+- **Specs:** Vertical 15px, Blur 30px, Opacity 25%
+- **CSS:** `box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);`
