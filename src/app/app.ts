@@ -5,10 +5,11 @@ import { Navbar } from './navbar/navbar';
 import { Hero } from './hero/hero';
 import { Features } from "./features/features";
 import { Footer } from "./footer/footer";
+import { Faq } from "./faq/faq";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Hero, RouterOutlet, Features, Footer, FontAwesomeModule],
+  imports: [Navbar, Hero, RouterOutlet, Features, Footer, FontAwesomeModule, Faq],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
