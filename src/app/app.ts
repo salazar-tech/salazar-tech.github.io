@@ -1,12 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { Navbar } from './navbar/navbar';
 import { Hero } from './hero/hero';
 import { Features } from "./features/features";
+import { Footer } from "./footer/footer";
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Hero, RouterOutlet, Features],
+  imports: [Navbar, Hero, RouterOutlet, Features, Footer, FontAwesomeModule],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
