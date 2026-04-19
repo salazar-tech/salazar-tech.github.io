@@ -69,3 +69,6 @@ Ideal for primary buttons or clickable interactive elements.
 Used for modals and dialogs that physically separate from the page.
 - **Specs:** Vertical 15px, Blur 30px, Opacity 25%
 - **CSS:** `box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);`
+
+## Git
+- Do not add "Co-Authored-By: Claude Opus 4.7" on the commit message.
