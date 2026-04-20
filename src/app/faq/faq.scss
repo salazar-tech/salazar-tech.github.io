@@ -1,15 +1,3 @@
-.app-faq {
-    background-color: #f3f3f1;
-    display: flex;
-    justify-content: center;
-}
-
-.faq-content {
-    max-width: 1024px;
-    width: 100%;
-    padding: 6rem 1.5rem;
-}
-
 .faq-list {
     display: flex;
     flex-direction: column;
@@ -97,7 +85,7 @@
 }
 
 .faq-answer p {
-    padding: 0 1.5rem 1.25rem 1.5rem;
+    padding: 0.5rem 1.5rem 1.25rem 1.5rem;
     margin: 0;
     line-height: 1.5rem;
 }

@@ -1,6 +1,6 @@
-<div class="app-faq">
-    <div class="faq-content">
-        <!-- <h2 class="section-h2">Your Questions, Simply Answered</h2> -->
+<div class="component-wrapper-a">
+    <div class="component-content">
+        <h2 class="component-title">Your Questions, Simply Answered</h2>
         <div class="faq-list">
             @for (item of items; track item.question; let i = $index) {
             <div class="faq-item" [class.expanded]="selectedItem() === i">
