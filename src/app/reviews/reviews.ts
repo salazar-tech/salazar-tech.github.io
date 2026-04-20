@@ -3,7 +3,7 @@ import { ReviewsCard } from './review-card';
 
 const reviews = [
   {
-    rating: 4,
+    rating: 5,
     name: 'Sarah Chen',
     role: 'Operations Director',
     company: 'TechStart Inc.',
