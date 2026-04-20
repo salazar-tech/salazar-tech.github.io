@@ -5,7 +5,15 @@
     background-image: url(/assets/about_bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        background-position: center bottom;
+        background-size: contain;
+    }
+
 }
+
 .card-img {
     img {
         height: 160px;
@@ -16,4 +24,9 @@
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.50rem;
+
+    @media (max-width: 768px) {
+        font-size: 1.15rem;
+        text-align: center;
+    }
 }

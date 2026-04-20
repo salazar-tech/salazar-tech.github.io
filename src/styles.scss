@@ -39,9 +39,7 @@
 @use '@angular/material' as mat;
 @include mat.core();
 
-  @include mat.theme((
-    color: (
-      primary: mat.$azure-palette,
+@include mat.theme((color: (primary: mat.$azure-palette,
     ),
   ));
 
@@ -55,7 +53,9 @@ body {
   margin: 0;
 }
 
-h1, h2, p {
+h1,
+h2,
+p {
   margin: 0;
   padding: 0;
 }
@@ -65,13 +65,13 @@ button {
 }
 
 .component-wrapper-a {
-  display: flex ;
+  display: flex;
   justify-content: center;
   background-color: #f3f3f1;
 }
 
 .component-wrapper-b {
-  display: flex ;
+  display: flex;
   justify-content: center;
   background-color: #f8f8f6;
 }
@@ -79,13 +79,23 @@ button {
 .component-content {
   max-width: 1024px;
   width: 100%;
-  padding: 8rem 1.5rem;
+  padding: 8rem 2rem;
+
+  @media (max-width: 768px) {
+    padding: 4rem 2rem;
+  }
+
 }
 
 .component-title {
   font-size: 2.5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
   font-weight: 300;
   color: #888;
-}
 
+  @media (max-width: 768px) {
+    font-size: 2.15rem;
+    text-align: center;
+  }
+
+}

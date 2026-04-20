@@ -21,7 +21,7 @@ export class Faq {
     },
     {
       question: 'How long does a typical implementation take?',
-      answer: 'A basic implementation typically starts at 40 hours by using native Odoo or Moodle features without custom code or complex integrations. The goal is to get your business operational quickly while maintaining a scalable approach for future growth.',
+      answer: 'A basic implementation generally starts at 40 hours. By using native Odoo or Moodle features without custom code, I can quickly deploy your software while ensuring the system remains scalable for future growth.',
     },
     {
       question: 'How do you charge for your services?',
