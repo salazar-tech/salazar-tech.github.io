@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background-image: url(/assets/about_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.card-img {
+    img {
+        height: 160px;
+    }
+}
+
+.card-txt {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.50rem;
+}
