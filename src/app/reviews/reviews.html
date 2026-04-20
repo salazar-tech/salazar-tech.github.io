@@ -1,1 +1,17 @@
-<p>reviews works!</p>
+<div class="component-wrapper-b">
+    <div class="component-content">
+        <h2 class="component-title">Words from My Partners</h2>
+        <div class="reviews-grid">
+            @for (review of reviews; track review.name) {
+                <app-reviews-card
+                    [rating]="review.rating"
+                    [name]="review.name"
+                    [role]="review.role"
+                    [company]="review.company"
+                    [avatar]="review.avatar"
+                    [text]="review.text"
+                />
+            }
+        </div>
+    </div>
+</div>

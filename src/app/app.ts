@@ -6,10 +6,11 @@ import { Hero } from './hero/hero';
 import { Footer } from "./footer/footer";
 import { Faq } from "./faq/faq";
 import { About } from "./about/about";
+import { Reviews } from './reviews/reviews';
 
 @Component({
   selector: 'app-root',
-  imports: [Navbar, Hero, RouterOutlet, Footer, FontAwesomeModule, Faq, About],
+  imports: [Navbar, Hero, RouterOutlet, Footer, FontAwesomeModule, Faq, About, Reviews],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
