@@ -1,0 +1,18 @@
+<div class="component-wrapper-a">
+    <div class="component-content">
+        <h2 class="component-title">Your Questions, Simply Answered</h2>
+        <div class="faq-list">
+            @for (item of items; track item.question; let i = $index) {
+            <div class="faq-item" [class.expanded]="selectedItem() === i">
+                <button type="button" class="faq-question" (click)="toggleItem(i)">
+                    <span>{{ item.question }}</span>
+                    <span class="faq-icon"></span>
+                </button>
+                <div class="faq-answer">
+                    <p>{{ item.answer }}</p>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+@use '@angular/material' as mat;
+
+html {
+
+  @include mat.theme((color: (primary: mat.$azure-palette,
+        theme-type: light),
+      density: 0));
+}
+
+body {
+  font-size: 15px;
+  font-family: Roboto;
+  color: var(--mat-sys-on-surface);
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-weight: 500 !important;
+}
+
+.component-wrapper-a {
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f1;
+}
+
+.component-wrapper-b {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f6;
+}
+
+.component-content {
+  max-width: 1024px;
+  width: 100%;
+  padding: 6rem 2rem;
+
+  @media (max-width: 768px) {
+    padding: 4rem 2rem;
+  }
+
+}
+
+.component-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  color: #888;
+
+  @media (max-width: 768px) {
+    font-size: 2.25rem;
+    text-align: center;
+  }
+
+}
+
+.light-txt {
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.50rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.15rem;
+    text-align: center;
+  }
+}

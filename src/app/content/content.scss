@@ -1,0 +1,35 @@
+.content-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+}
+
+mat-card {
+    max-width: 320px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+
+    mat-card-header {
+        padding: 2rem 2rem 1rem 2rem;
+    }
+
+    mat-card-title {
+        color: #a8a3fb;
+        font-weight: 500;
+    }
+
+    mat-card-content {
+        padding: 0 2rem 2rem 2rem;
+        font-size: 1.25rem;
+        flex: 1;
+    }
+
+}

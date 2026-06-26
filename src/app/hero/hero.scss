@@ -1,0 +1,74 @@
+.app-hero {
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-color: #001d21;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  flex-direction: column;
+  background-image: url(/assets/binary_001.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-content {
+  max-width: 1024px;
+  padding: 1.5rem;
+}
+
+
+.hero-card {
+  display: flex;
+  gap: 3rem;
+
+  @media (max-width: 768px) {
+    .hero-img {
+      display: none;
+    }
+  }
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 600px;
+
+
+  h1 {
+    font-weight: 600;
+    font-size: 3.75rem;
+    line-height: 3.75rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.5rem;
+  }
+
+  button {
+    margin-top: 2rem;
+    padding: 2rem 2rem;
+    background: #cecbff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    align-items: center;
+  }
+
+
+}
+
+.hero-img {
+  img {
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}
